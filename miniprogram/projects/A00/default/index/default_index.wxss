@@ -1,0 +1,20 @@
+@import "../../../../style/project/base/appt.wxss";
+@import "../../skin/skin.wxss";
+@import "../../../../style/project/default_index_base.wxss";
+
+
+.up image {
+	width: 100%;
+	height: 550rpx; 
+}
+
+.menu .item-inner .img {
+	width: 110rpx;
+	height: 110rpx;
+	background-color: #f8f8f8;
+	border-radius: 20rpx;
+}
+
+.menu .item {
+	width: 25%;
+}
