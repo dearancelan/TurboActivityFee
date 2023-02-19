@@ -5,7 +5,7 @@
 - 美容项目预约凭证：支持线下到场后校验签到/核销/二维码自助签到等多种方式
 - 详尽的预约数据：支持预约名单数据导出Excel，打印
 
-![输入图片说明](demo/qr.png)
+![image](https://user-images.githubusercontent.com/89879893/219947032-a5f173e7-be38-4420-9032-4d4356bb4380.png)
  
 
 ## 技术运用
@@ -21,12 +21,12 @@
 - 如有疑问，欢迎骚扰联系我鸭：开发交流，技术分享，问题答疑，功能建议收集，版本更新通知，安装部署协助，小程序开发定制等。
 - 俺的微信: 
  
-![输入图片说明](demo/1.png)
+![image](https://user-images.githubusercontent.com/89879893/219947034-9227c21a-fc6f-46a0-b3d3-00bd42cc2e5c.png)
 
 
 ## 演示 
  
-![输入图片说明](demo/qr.png)
+![image](https://user-images.githubusercontent.com/89879893/219947037-f119f4af-073d-464e-bdc8-21062d4ddac3.png)
 
 ## 安装
 
@@ -36,22 +36,30 @@
 
 
 ## 截图
-![输入图片说明](demo/1%E9%A6%96%E9%A1%B5.png)
+ ![image](https://user-images.githubusercontent.com/89879893/219947048-01393019-ede6-4513-b51b-53608e929b16.png)
+![image](https://user-images.githubusercontent.com/89879893/219947051-0b74af0a-69ab-48d0-8511-bf4d13256f10.png)
+![image](https://user-images.githubusercontent.com/89879893/219947054-0d750cdf-d246-4e14-9376-c0e3229c0941.png)
+![image](https://user-images.githubusercontent.com/89879893/219947057-a1676a30-7667-421f-bab2-aad6922a128c.png)
+![image](https://user-images.githubusercontent.com/89879893/219947062-7e4323e0-f330-4403-8853-eef84cde2d00.png)
+![image](https://user-images.githubusercontent.com/89879893/219947064-657867bc-e232-45fe-ad6e-0281d07e81e6.png)
+![image](https://user-images.githubusercontent.com/89879893/219947069-cdbb2af5-edac-4a73-95bd-690b31921fc6.png)
+![image](https://user-images.githubusercontent.com/89879893/219947073-9f4776ba-b494-404c-9a41-ae516e5bb8ae.png)
 
-![输入图片说明](demo/2%E6%9C%AC%E5%BA%97%E5%8A%A8%E6%80%81.png)
-![输入图片说明](demo/3%E4%BF%9D%E5%85%BB%E7%9F%A5%E8%AF%86.png)
- ![输入图片说明](demo/4%E6%97%A5%E5%8E%86.png)
-![输入图片说明](demo/5%E6%88%91%E7%9A%84.png)
-![输入图片说明](demo/6%E9%A2%84%E7%BA%A6.png)
-![输入图片说明](demo/7%E9%A2%84%E7%BA%A6.png)
-![输入图片说明](demo/8%E9%A2%84%E7%BA%A6.png)
+ 
+ 
+ 
+ 
+ 
+ 
 
 ## 后台管理系统截图 
+![image](https://user-images.githubusercontent.com/89879893/219947078-06f4dd4d-296e-48a7-9dbd-eee8b95eb5ec.png)
+![image](https://user-images.githubusercontent.com/89879893/219947080-a4a195de-8ff4-4225-adac-95591b260dbb.png)
+![image](https://user-images.githubusercontent.com/89879893/219947087-d571f510-3bb4-46ce-a330-58f5444303f3.png)
+![image](https://user-images.githubusercontent.com/89879893/219947093-45d93a01-da2a-48b4-a9f5-3d732f74e93d.png)
+![image](https://user-images.githubusercontent.com/89879893/219947097-527141f3-df63-4af0-ab2b-6c156bc15267.png)
+![image](https://user-images.githubusercontent.com/89879893/219947102-78dfbd6e-4502-4028-9da4-9c7fd9d74d65.png)
 
-![输入图片说明](demo/9%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5.png)
 
-![输入图片说明](demo/10%E5%90%8E%E5%8F%B0-%E5%86%85%E5%AE%B9.png)
-![输入图片说明](demo/11%E5%90%8E%E5%8F%B0-%E9%A2%84%E7%BA%A6.png)
-![输入图片说明](demo/12%E5%90%8E%E5%8F%B0-%E9%A2%84%E7%BA%A6.png)
-![输入图片说明](demo/13%E5%90%8E%E5%8F%B0-%E6%97%B6%E6%AE%B5.png)
-![输入图片说明](demo/14%E5%90%8E%E5%8F%B0-%E9%A2%84%E7%BA%A6.png)
+
+ 
