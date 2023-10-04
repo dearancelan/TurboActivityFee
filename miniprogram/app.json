@@ -1,0 +1,112 @@
+{
+	"pages": [
+		"projects/activityfee/pages/default/index/default_index",
+		"projects/activityfee/pages/about/index/about_index",
+		"projects/activityfee/pages/search/search",
+		"projects/activityfee/pages/my/index/my_index",
+		"projects/activityfee/pages/my/reg/my_reg",
+		"projects/activityfee/pages/my/edit/my_edit",
+		"projects/activityfee/pages/my/foot/my_foot",
+		"projects/activityfee/pages/my/fav/my_fav",
+		"projects/activityfee/pages/news/index/news_index",
+		"projects/activityfee/pages/news/detail/news_detail",
+		"projects/activityfee/pages/news/cate1/news_cate1",
+		"projects/activityfee/pages/admin/news/list/admin_news_list",
+		"projects/activityfee/pages/admin/news/add/admin_news_add",
+		"projects/activityfee/pages/admin/news/edit/admin_news_edit",
+		"projects/activityfee/pages/admin/setup/about/admin_setup_about",
+		"projects/activityfee/pages/admin/setup/about_list/admin_setup_about_list",
+		"projects/activityfee/pages/admin/setup/qr/admin_setup_qr",
+		"projects/activityfee/pages/admin/index/home/admin_home",
+		"projects/activityfee/pages/admin/index/login/admin_login",
+		"projects/activityfee/pages/admin/content/admin_content",
+		"projects/activityfee/pages/admin/mgr/log/admin_log_list",
+		"projects/activityfee/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/activityfee/pages/admin/mgr/list/admin_mgr_list",
+		"projects/activityfee/pages/admin/mgr/add/admin_mgr_add",
+		"projects/activityfee/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/activityfee/pages/admin/user/list/admin_user_list",
+		"projects/activityfee/pages/admin/user/detail/admin_user_detail",
+		"projects/activityfee/pages/admin/user/export/admin_user_export",
+		"projects/activityfee/pages/activity/index/activity_index",
+		"projects/activityfee/pages/activity/detail/activity_detail",
+		"projects/activityfee/pages/activity/join/activity_join",
+		"projects/activityfee/pages/activity/my_join_list/activity_my_join_list",
+		"projects/activityfee/pages/activity/my_join_detail/activity_my_join_detail",
+		"projects/activityfee/pages/activity/my_join_self/activity_my_join_self",
+		"projects/activityfee/pages/activity/calendar/activity_calendar",
+		"projects/activityfee/pages/activity/join_list/activity_join_list",
+		"projects/activityfee/pages/admin/activity/join_list/admin_activity_join_list",
+		"projects/activityfee/pages/admin/activity/self/admin_activity_self",
+		"projects/activityfee/pages/admin/activity/export/admin_activity_export",
+		"projects/activityfee/pages/admin/activity/scan/admin_activity_scan",
+		"projects/activityfee/pages/admin/activity/list/admin_activity_list",
+		"projects/activityfee/pages/admin/activity/add/admin_activity_add",
+		"projects/activityfee/pages/admin/activity/edit/admin_activity_edit",
+		"projects/activityfee/pages/admin/activity/flow/admin_activity_flow",
+		"projects/activityfee/pages/comment/list/comment_list",
+		"projects/activityfee/pages/comment/add/comment_add",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#0820a8",
+		"navigationBarTitleText": "活动报名缴费小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#0820a8",
+		"list": [
+			{
+				"pagePath": "projects/activityfee/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/activityfee/images/tabbar/home.png",
+				"selectedIconPath": "/projects/activityfee/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/activityfee/pages/news/cate1/news_cate1",
+				"text": "公告",
+				"iconPath": "/projects/activityfee/images/tabbar/news.png",
+				"selectedIconPath": "/projects/activityfee/images/tabbar/news_cur.png"
+			},
+			{
+				"pagePath": "projects/activityfee/pages/activity/index/activity_index",
+				"text": "活动",
+				"iconPath": "/projects/activityfee/images/tabbar/activity.png",
+				"selectedIconPath": "/projects/activityfee/images/tabbar/activity_cur.png"
+			},
+			{
+				"pagePath": "projects/activityfee/pages/activity/calendar/activity_calendar",
+				"text": "日历",
+				"iconPath": "/projects/activityfee/images/tabbar/checkin.png",
+				"selectedIconPath": "/projects/activityfee/images/tabbar/checkin_cur.png"
+			},
+			{
+				"pagePath": "projects/activityfee/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/activityfee/images/tabbar/my.png",
+				"selectedIconPath": "/projects/activityfee/images/tabbar/my_cur.png"
+			}
+		]
+	}, 
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"requiredPrivateInfos": [
+		"chooseLocation"
+	],
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}

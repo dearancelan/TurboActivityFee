@@ -1,0 +1,296 @@
+@import "../../../../../style/public/comm_box_list.wxss";
+@import "../../../style/skin.wxss";
+
+page {
+	background-color: #fff;
+}
+
+.main {
+	padding: 0rpx 0rpx 100rpx;
+}
+
+.up {
+	width: 100%;
+}
+
+.up image {
+	width: 100%;
+	box-shadow: 0rpx 15rpx 8px -10rpx rgba(28, 236, 108, 0.4);
+}
+
+.down {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20rpx 0rpx 10rpx;
+	margin-top: -80rpx;
+	z-index: 9999;
+	position: relative;
+	background-color: rgba(255, 255, 255, .4);
+
+}
+
+.menu {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	padding: 20rpx 10rpx 30rpx;
+	border-radius: 30rpx;
+}
+
+.menu .item {
+	width: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 180rpx;
+
+}
+
+.menu .item .item-inner {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.menu .item-inner .img {
+	width: 80rpx;
+	height: 80rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(145deg, #f3f3f5, #eff0f5, #c1c8f0);
+	border-radius: 30%;
+}
+
+
+.menu .item-inner .img image {
+	width: 60rpx;
+	height: 60rpx;
+}
+
+.menu .item-inner .title {
+	font-size: 24rpx;
+	color: #333;
+	margin-top: 20rpx;
+}
+
+.scroll-x {
+	width: 100%;
+	padding: 0 28rpx;
+}
+
+.scroll-list {
+	width: 100%;
+	margin-top: 10rpx;
+	background-color: #fff;
+	white-space: nowrap;
+}
+
+.scroll-list .item {
+	display: inline-block;
+	padding: 0;
+	margin-right: 20rpx;
+	border-radius: 10rpx;
+	overflow: hidden;
+	width: 370rpx;
+	box-shadow: 1rpx 8rpx 8rpx rgba(230, 225, 226, 0.7);
+	margin-bottom: 30rpx;
+	position: relative;
+	background-image: linear-gradient(125deg, #fff, #eff0f5, #fff);
+}
+
+.scroll-list .item .cover {
+	height: 185rpx;
+	width: inherit;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+	position: relative;
+	overflow: hidden;
+}
+
+.scroll-list .item .cover image {
+	height: inherit;
+	width: inherit;
+	border-radius: inherit;
+}
+
+.scroll-list .item .title {
+	width: 100%;
+	font-size: 28rpx;
+	display: flex;
+	align-items: center;
+	padding: 6rpx 10rpx;
+	color: #666;
+	overflow: hidden;
+}
+
+.scroll-list .users {
+	width: 100%;
+	font-size: 24rpx;
+	width: inherit;
+	padding: 10rpx 10rpx;
+	color: #999;
+	display: flex;
+	align-items: center;
+	height: 68rpx;
+}
+
+.scroll-list .users .pic-group {
+	display: flex;
+	padding: 0 10rpx 0 0rpx;
+	align-items: center;
+}
+
+.scroll-list .users .pic-group .pic {
+	width: 48rpx !important;
+	height: 48rpx !important;
+	border: 4rpx solid #fff;
+	margin-left: -20rpx;
+}
+
+.scroll-list .users .pic-group .pic:first-child {
+	margin-left: 0rpx;
+}
+
+.scroll-list .users .num {
+	font-size: 24rpx;
+	color: #999;
+}
+
+
+.tab-line {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20rpx 30rpx 20rpx;
+	align-items: center;
+	margin-top: 20rpx;
+}
+
+.tab-line .item {
+	font-size: 34rpx;
+	font-weight: bold;
+	color: #000;
+	position: relative;
+}
+
+.tab-line .item1 {
+	font-size: 24rpx;
+	color: #999;
+	padding: 6rpx 24rpx;
+	border: 2rpx solid #ccc;
+	border-radius: 30rpx;
+	background-image: linear-gradient(45deg, #fef2ce, #fff, #fff);
+}
+
+
+
+.tab-line1 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 10rpx 30rpx 10rpx;
+	align-items: flex-end;
+	margin-top: 20rpx;
+	margin-bottom: 10rpx;
+}
+
+.tab-line1 .item {
+	font-size: 30rpx;
+	color: #666;
+	position: relative;
+	padding: 0 30rpx;
+}
+
+.tab-line1 .item.cur {
+	font-size: 34rpx;
+	color: var(--projectColor);
+	font-weight: bold;
+}
+
+.tab-line1 .item.cur:after {
+	width: 20%;
+	position: absolute;
+	bottom: -16rpx;
+	left: 50%;
+	height: 8rpx;
+	content: '';
+	border-radius: 30%;
+	background-color: var(--projectCompareColor);
+	transform: translateX(-50%);
+}
+
+
+
+
+.list {
+	width: 100%;
+	padding: 20rpx 26rpx;
+	display: flex;
+	flex-direction: column;
+	background-color: #f8f8f8;
+}
+
+.list .item {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 10rpx 10rpx;
+	margin-bottom: 20rpx;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff;
+	border-radius: 10rpx; 
+	border-bottom-right-radius: 20rpx;
+	border-top-left-radius: 20rpx;
+}
+
+.list .item .mark {
+	position: absolute;
+	top: 18rpx;
+	left: 18rpx;
+	background-color: var(--red);
+	opacity: .9;
+	padding: 4rpx 16rpx;
+	border-radius: 6rpx;
+	border-bottom-right-radius: 16rpx;
+	font-size: 24rpx;
+	color: #fff;
+
+	z-index: 9;
+}
+
+.list .item .left {
+	width: 190rpx;
+	height: 120rpx;
+	border-radius: 6rpx;
+	margin-right: 25rpx;
+	border-bottom-right-radius: 20rpx;
+	border-top-left-radius: 20rpx;
+}
+
+.list .item .right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 5rpx 0;
+}
+
+.list .item .right .title {
+	width: 100%;
+	font-size: 28rpx;
+	color: #333;
+	margin-bottom: 24rpx;
+}
+
+.list .item .right .desc {
+	width: 100%;
+	font-size: 24rpx;
+	color: #ccc;
+	display: flex;
+	align-items: baseline;
+}

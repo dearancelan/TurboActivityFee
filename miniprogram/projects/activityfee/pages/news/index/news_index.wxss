@@ -1,0 +1,8 @@
+@import "../../../../../style/public/comm_box_list.wxss";
+@import "../../../style/skin.wxss"; 
+
+.comm-list-box .item-leftbig1 .leftbig-left {
+	border-top-left-radius: 30rpx!important;
+	border-bottom-right-radius: 30rpx!important;
+	border-bottom:6rpx solid var(--projectCompareColor)
+}

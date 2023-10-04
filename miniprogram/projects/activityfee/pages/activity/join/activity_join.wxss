@@ -1,0 +1,33 @@
+@import "../../../../../style/public/detail.wxss";
+@import "../../../style/skin.wxss";
+
+.form-group .line-desc {
+    font-size: 28rpx;
+    text-align: center;
+    width: 100%;
+    color: #666;
+}
+
+.submit-line {
+    width: 100%;
+}
+
+.address-list {
+    width: 100%;
+    padding: 20rpx 30rpx;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.address-list .item {
+    padding: 5rpx 20rpx;
+    border: 1rpx solid #ccc;
+    border-radius: 10rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20rpx;
+    color: #666;
+    margin-bottom: 15rpx;
+}
