@@ -1,5 +1,5 @@
 /**
- * Notes: 样片模块业务逻辑
+ * Notes: 样片 模块业务逻辑
  */
 
 const BaseProjectService = require('./base_project_service.js');
