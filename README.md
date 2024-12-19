@@ -1,4 +1,4 @@
-## 功能介绍 
+## 功能 介绍 
 ![image](https://github.com/dearancelan/TurboActivityFee/assets/89879893/e574a502-8727-4701-ad85-3274140c99be)
 
 - 1 用户注册与登录 。 
